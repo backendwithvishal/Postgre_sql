@@ -15,6 +15,7 @@ enroll_data DATE DEFAULT CURRENT_DATE
 );
 
 // query for NOT NULL
+
 CREATE TABLE student (
    id SERIAL PRIMARY KEY,
    name VARCHAR(100) NOT NULL,

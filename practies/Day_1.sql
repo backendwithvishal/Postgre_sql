@@ -91,3 +91,7 @@ ORDER BY hire_date DESC
 LIMIT 5;
 
 SELECT first_name, lst
+
+SELECT COUNT(*) AS total_emplyees FROM employees;
+
+SELECT SUM(salary) AS total_salary_expense FROM employees;

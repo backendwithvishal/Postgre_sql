@@ -5,6 +5,6 @@ dotenv.config();
 
 const app = express();
 
-app.listen(4500, ()=>{
-    console.log(`server is running at port http://localhost:4500`);
-})
+app.listen(process.env.PORT, () => {
+    console.log(`server is running at port http://localhost:${process.env.PORT}`);
+});     

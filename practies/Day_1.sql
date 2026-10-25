@@ -94,4 +94,4 @@ SELECT first_name, lst
 
 SELECT COUNT(*) AS total_emplyees FROM employees;
 
-SELECT SUM(salary) AS total_salary_expense FROM employees;
+SELECT SUM(salary) AS total_salary_expense FROM employees

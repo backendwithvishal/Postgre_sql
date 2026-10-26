@@ -51,3 +51,4 @@ postgres=# \dt
  public | tbltransaction | table | postgres
  public | tbluser        | table | postgres
 (5 rows)
+

@@ -1,2 +1,1 @@
-CREATE DATABASE school;
-
+DROP DATABASE IF EXISTS school;

@@ -52,3 +52,24 @@ postgres=# \dt
  public | tbluser        | table | postgres
 (5 rows)
 
+PS D:\Postgres_sql> psql -U postgres -d postgres -f "D:\Postgres_sql\part1\01_first_database.sql"
+psql:D:/Postgres_sql/part1/01_first_database.sql:1: NOTICE:  database "school" does not exist, skipping
+DROP DATABASE
+PS D:\Postgres_sql> psql -U postgres -d postgres -f "D:\Postgres_sql\part1\01_first_database.sql"
+psql:D:/Postgres_sql/part1/01_first_database.sql:1: NOTICE:  database "school" does not exist, skipping
+DROP DATABASE
+CREATE DATABASE
+PS D:\Postgres_sql> psql -U postgres -d postgres -f "D:\Postgres_sql\part1\02_first_schema.sql"
+psql:D:/Postgres_sql/part1/02_first_schema.sql:1: NOTICE:  schema "basics" already exists, skipping
+CREATE SCHEMA
+psql:D:/Postgres_sql/part1/02_first_schema.sql:3: NOTICE:  extension "pgcrypto" already exists, skipping
+CREATE EXTENSION
+    schema_name
+--------------------
+ basics
+ information_schema
+ pg_catalog
+ pg_toast
+ public
+(5 rows)
+

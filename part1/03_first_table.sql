@@ -1,5 +1,7 @@
 
--- DROP TABLE IF EXISTS basics.students;
+CREATE SCHEMA IF NOT EXISTS basics;
+
+DROP TABLE IF EXISTS basics.students;
 
 CREATE TABLE basics.students (
 

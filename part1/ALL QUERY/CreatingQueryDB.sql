@@ -73,4 +73,5 @@ CREATE EXTENSION
  public
 (5 rows)
 
-
+PS D:\Postgres_sql> psql -U postgres -d postgres -f "D:\Postgres_sql\part1\03_first_table.sql"
+CREATE TABLE

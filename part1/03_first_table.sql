@@ -1,5 +1,5 @@
 
-DROP TABLE IF EXISTS basics.students;
+-- DROP TABLE IF EXISTS basics.students;
 
 CREATE TABLE basics.students (
 
@@ -16,8 +16,8 @@ CREATE TABLE basics.students (
     -- INTEGER means that this column can store integer values only 
     -- CHECK (age >= 18) means that this column can only store values greater than or equal to 18
 
-    created_at TIMESTAMP DEFAULT NOW(),
+    created_at TIMESTAMP DEFAULT NOW()
     -- TIMESTAMP means that this column can store timestamp values only 
     -- DEFAULT NOW() means that this column will have a default value of the current timestamp
 
-)
+);

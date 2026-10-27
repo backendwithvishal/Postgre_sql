@@ -5,5 +5,5 @@ CREATE EXTENSION IF NOT EXISTS pgcrypto;
 -- query
 
 SELECT schema_name
-FROM information_schema_schemata
+FROM information_schema.schemata
 ORDER BY schema_name;

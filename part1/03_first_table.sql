@@ -23,3 +23,8 @@ CREATE TABLE basics.students (
     -- DEFAULT NOW() means that this column will have a default value of the current timestamp
 
 );
+
+INSERT INTO basics.students (name, email, age)
+VALUES
+   ('Yash', 'yash6969@gmail.com', 19),
+   ('Aryan', 'aryan9696@gmail.com', 20);

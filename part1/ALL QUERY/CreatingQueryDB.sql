@@ -94,3 +94,65 @@ postgres=# \dt basics.*
 --------+----------+-------+----------
  basics | students | table | postgres
 (1 row)
+
+PS D:\Postgres_sql\part1> psql -U postgres -d school
+psql (18.3)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+school=# SE4LECT * FROM basis
+
+PS D:\Postgres_sql\part1> psql -U postgres -d school
+psql (18.3)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+school=# SE4LECT * FROM basis
+
+PS D:\Postgres_sql\part1> psql -U postgres -d school
+psql (18.3)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+school=# SE4LECT * FROM basis
+
+PS D:\Postgres_sql\part1> psql -U postgres -d school
+psql (18.3)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+school=# SE4LECT * FROM basis
+
+PS D:\Postgres_sql\part1> psql -U postgres -d school
+psql (18.3)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+PS D:\Postgres_sql\part1> psql -U postgres -d school
+psql (18.3)
+WARNING: Console code page (437) differs from Windows code page (1252)
+PS D:\Postgres_sql\part1> psql -U postgres -d school
+psql (18.3)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+school=# SELECT * FROM basics.students;
+ id | name  |        email        | age |         created_at
+----+-------+---------------------+-----+----------------------------
+  1 | Yash  | yash6969@gmail.com  |  19 | 2026-10-31 23:33:39.214595
+  2 | Aryan | aryan9696@gmail.com |  20 | 2026-10-31 23:33:39.214595
+(2 rows)
+
+school=#

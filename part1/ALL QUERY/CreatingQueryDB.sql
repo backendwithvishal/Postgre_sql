@@ -75,3 +75,22 @@ CREATE EXTENSION
 
 PS D:\Postgres_sql> psql -U postgres -d postgres -f "D:\Postgres_sql\part1\03_first_table.sql"
 CREATE TABLE
+
+PS D:\Postgres_sql\part1> psql -U postgres -d school -f "D:\Postgres_sql\part1\03_first_table.sql"
+psql:D:/Postgres_sql/part1/03_first_table.sql:2: NOTICE:  schema "basics" already exists, skipping
+CREATE SCHEMA
+DROP TABLE
+CREATE TABLE
+PS D:\Postgres_sql\part1> psql -U postgres -d postgres                                                 
+psql (18.3)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=# \dt basics.*
+            List of tables
+ Schema |   Name   | Type  |  Owner   
+--------+----------+-------+----------
+ basics | students | table | postgres
+(1 row)

@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS basics.products_basis;
+
 CREATE TABLE basics.products_basic (
 
     -- STRING - max length of 100 chacterars
@@ -14,6 +16,24 @@ CREATE TABLE basics.products_basic (
 
     -- Exect decimal values
     -- 10 means total digits
-    -- 2 means digits after the decimal points, 99999999999.99 
+    -- 2 means digits after the decimal points, 9999999.99 
     price NUMERIC(10, 2)
+
+    is_active BOOLEAN DEFAULT true
 )
+
+-- Queries
+
+INSERT INTO basics.products_basic
+   (name, description, stock, total_views, price, is_active)
+values
+   (
+    'product 1',
+    'product desc',
+    100,
+    1200,
+    2455.56,
+    true
+   )
+
+SELECT * FROM basics.products_basic;
